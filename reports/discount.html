@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Discription -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- css bootstrap cdn Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- font poppins -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- css boot  Link -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- css main styling  Link -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <!-- Page title -->
+    <title>Discount wise report</title>
+    <style>
+        #ul_show1 {
+            height: auto;
+        }
+    </style>
+</head>
+
+<body style="background-color: #EBEEF6;">
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <!-- logo start -->
+                <div class="col-2">
+                    <a href="">
+                        <div class="logo ">
+                            <img src="../img/khadyo-logo.png" alt="logo pic">
+                        </div>
+                    </a>
+                </div>
+                <!-- toggle button option -->
+                <label for="nav_check" class="float-right col-1 offset-8  nav-btn mt-3  "><i
+                        class="fas fa-align-justify text-own"></i></label>
+                <!-- right option in header -->
+                <input type="checkbox" name="nav_check" id="nav_check" class="d-none">
+                <div
+                    class="col-xl-4 offset-xl-6 col-lg-6 offset-lg-3 col-md-12  mt-lg-2 pl-lg-5 d-flex justify-content-lg-around justify-content-md-center flex-column flex-md-row md-heade pl-5">
+                    <div class="d-inline-block mr-lg-3 ">
+                        <div class="rounded-circle text-white bg-own px-1  font-weight-bolder d-inline-block"
+                            style="width: 30px; height: 30px;; line-height: 30px; font-size: 10px;">
+                            ABC</div>
+                        <a class="nav-link dropdown-toggle d-inline-block p-0" href="#" style="font-size: 14px;"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            English
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item active " href="#">English</a>
+                            <a class="dropdown-item" href="#">Spanish</a>
+                        </div>
+                    </div>
+                    <div class="d-inline-block mr-lg-3 mx-md-5 py-4 py-md-0 mx-lg-0">
+                        <div class="rounded-circle text-white bg-own px-2 font-weight-bold  d-inline-block"
+                            style="width: 30px; height: 30px; line-height: 30px; font-size: 12px;">
+                            Rs</div>
+                        <a class="nav-link dropdown-toggle d-inline-block p-0" href="#" style="font-size: 14px;"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            92
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="#">Us Dollar</a>
+                            <a class="dropdown-item active" href="#">PKR</a>
+                        </div>
+                    </div>
+                    <div class="d-inline-block ">
+                        <img src="../img/user.jpg" alt="user pic" class="rounded-circle  "
+                            style="height: 30px; width: 30px; border: 2.5px solid white; box-shadow: 0 5px 10px rgb(34 39 54 / 20%);">
+                        <a class="nav-link dropdown-toggle d-inline-block font-weight-bolder p-0" href="#"
+                            style="font-size: 14px;" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            ADMIN
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="#">Dashboard</a>
+                            <a class="dropdown-item" href="#">Change Password</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- logo end -->
+                <div class=""></div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- Main start -->
+    <main>
+        <div class="container">
+            <!-- box start -->
+            <div class="row ">
+                <!-- Links box start -->
+                <div class="col-lg-3  link-box p-0  pr-2 pr-lg-0 ">
+                    <div class="main-ul-div ">
+                        <ul class="main-ul">
+                            <label class="active-link" id="lable1" onclick="show1()">SALE'S REPORTS</label>
+                            <li class="child_li">
+                                <div class="un_active-link_div" id="ul_show1">
+                                    <ul class="link_ul_ok">
+                                        <li class="bg-white custom_li"><a href="index.html" class="">- DASHBOARD</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="daily.html" class="">- DAILY </a></li>
+                                        <li class="bg-white custom_li"><a href="monthly.html" class="">- MONTHLY</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="item-wise.html" class="">- ITEM
+                                                WISE</a></li>
+                                        <li class="bg-white custom_li"><a href="group-.html" class="">- GROUP WISE</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="branch-.html" class="">- BRANCH WISE</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="pos-user.html" class="">- POS USER
+                                                WISE</a></li>
+                                        <li class="bg-white custom_li"><a href="department.html" class="">- DEPARTMENT
+                                                WISE</a></li>
+                                        <li class="bg-white custom_li"><a href="ser-charge.html" class="">- SER CHARGE
+                                                WISE</a></li>
+                                        <li class="bg-white custom_li"><a href="discount.html" class="activee">- DISCOUNT
+                                                WISE</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Links box end -->
+                <!-- content box start -->
+                <div class="col-lg-9  action-box pl-2 overflow-auto pr-0 bg-white"
+                    style="border-left: 8px solid #EBEEF6;">
+                    <div class="bg-white p-3">
+                        <h6 style="font-weight: 900; font-size: 18px; font-family: 'Poppins', sans-serif !important;">
+                            Discount Wise Reports</h6>
+                        <div class="row gx-2 mt-4   no-gutters">
+                            <div class="col-12 col-md-4 col-lg-3 mx-md-1 d-md-block">
+                                <input type="date" placeholder="From date"
+                                    class="form-control sm-text py-2 t-mb-15 mb-md-0" value="" style="height: 38px;">
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-3 mx-md-1 t-mb-15 mb-md-0 mt-3 mt-md-0">
+                                <input type="date" placeholder="To date" class="form-control sm-text py-2" value="" style="height: 38px;">
+                            </div>
+                            <div class="col-12 col-md-3 t-mb-15 mb-md-0 mx-md-1 mt-3 mt-md-0 d-block text-right">
+                                <button class="btn btn-block bg-own border-0 btn-danger text-uppercase sm-text py-2" style="height: 38px;">Generate
+                                    Report</button>
+                            </div>
+                            <div class="px-5 py-4 mx-auto border my-5">
+                                GENERATE REPORT FOLLOWING THE ABOVE FIELD
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- content box start -->
+            </div>
+            <!-- box end -->
+        </div>
+    </main>
+    <!-- Main end -->
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="position-relative">
+                <a href="">
+                    <div
+                        class="logo d-inline-block  pt-2 col-lg-2 pl-lg-0 offset-lg-0 col-3 offset-3 col-md-1 offset-md-0 p-0 m-0">
+                        <img src="../img/khadyo-logo.png" alt="logo pic" style="height: 25px !important; ;">
+                    </div>
+                </a>
+                <div class="d-inline-block offset-sm-2 offset-md-2  para">
+                    <p>© CraveTeck || All rights reserved</p>
+                </div>
+                <div class="d-md-inline-block d-none float-right bg-own time-box position-relative "
+                    style="width: 260px; min-height: 50px;">
+                    <span class="bg-white d-inline-block rounded-lg text-center position-absolute"
+                        style="width: 40px ; height: 40px; line-height: 40px; top: 5px; left: 50px;">
+                        <i class="fas fa-clock text-own"></i>
+                    </span>
+                    <div class="d-inline-block float-right mr-4 mt-2" style="width: 120px; height: 40px;">
+                        <p class="d-inline-block font-weight-bold text-white m-0 p-0 time-js "
+                            style="font-size: 16px; ">
+                            02:38:37 PM
+                        </p>
+                        <span class="date-js d-block text-white" style="font-size: 10px;">Saturday, 19 Jun, 2021</span>
+                    </div>
+                </div>
+                <!-- time box start div -->
+
+                <!-- time box end div -->
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- bootstrap js files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <!-- external js file inclue -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

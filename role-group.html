@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Discription -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- css bootstrap cdn Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- font poppins -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- css boot  Link -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- css main styling  Link -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Page title -->
+    <title>Permissions</title>
+    
+</head>
+
+<body style="background-color: #EBEEF6;">
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <!-- logo start -->
+                <div class="col-2">
+                    <a href="">
+                        <div class="logo ">
+                            <img src="img/khadyo-logo.png" alt="logo pic">
+                        </div>
+                    </a>
+                </div>
+                <!-- toggle button option -->
+                <label for="nav_check" class="float-right col-1 offset-8  nav-btn mt-3  "><i
+                        class="fas fa-align-justify text-own"></i></label>
+                <!-- right option in header -->
+                <input type="checkbox" name="nav_check" id="nav_check" class="d-none">
+                <div
+                    class="col-xl-4 offset-xl-6 col-lg-6 offset-lg-3 col-md-12  mt-lg-2 pl-lg-5 d-flex justify-content-lg-around justify-content-md-center flex-column flex-md-row md-heade pl-5">
+                    <div class="d-inline-block mr-lg-3 ">
+                        <div class="rounded-circle text-white bg-own px-1  font-weight-bolder d-inline-block"
+                            style="width: 30px; height: 30px;; line-height: 30px; font-size: 10px;">
+                            ABC</div>
+                        <a class="nav-link dropdown-toggle d-inline-block p-0" href="#" style="font-size: 14px;"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            English
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item active " href="#">English</a>
+                            <a class="dropdown-item" href="#">Spanish</a>
+                        </div>
+                    </div>
+                    <div class="d-inline-block mr-lg-3 mx-md-5 py-4 py-md-0 mx-lg-0">
+                        <div class="rounded-circle text-white bg-own px-2 font-weight-bold  d-inline-block"
+                            style="width: 30px; height: 30px; line-height: 30px; font-size: 12px;">
+                            Rs</div>
+                        <a class="nav-link dropdown-toggle d-inline-block p-0" href="#" style="font-size: 14px;"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            92
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="#">Us Dollar</a>
+                            <a class="dropdown-item active" href="#">PKR</a>
+                        </div>
+                    </div>
+                    <div class="d-inline-block ">
+                        <img src="img/user.jpg" alt="user pic" class="rounded-circle  "
+                            style="height: 30px; width: 30px; border: 2.5px solid white; box-shadow: 0 5px 10px rgb(34 39 54 / 20%);">
+                        <a class="nav-link dropdown-toggle d-inline-block font-weight-bolder p-0" href="#"
+                            style="font-size: 14px;" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            ADMIN
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="#">Dashboard</a>
+                            <a class="dropdown-item" href="#">Change Password</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- logo end -->
+                <div class=""></div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- Main start -->
+    <main>
+        <div class="container">
+            <!-- box start -->
+            <div class="row ">
+                <!-- Links box start -->
+                <div class="col-lg-3  link-box p-0  pr-2 pr-lg-0 ">
+                    <div class="main-ul-div ">
+                        <ul class="main-ul">
+                            <label class="un_active-link" id="lable1" >FOODS</label>
+                            <li class="child_li">
+                                <div class="un_active-link_div" id="ul_show1" style="display: none;">
+                                    <ul class="link_ul_ok">
+                                        <li class="bg-white custom_li"><a href="index.html" class="">- ADD NEW
+                                                ITEM</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="all-item.html" class="">- All ITEMS </a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="group.html" class="">- GROUPS</a></li>
+                                        <li class="bg-white custom_li"><a href="properties.html" class="">-
+                                                PROPERTIES</a></li>
+                                        <li class="bg-white custom_li"><a href="variations.html" class="">-
+                                                VARIATIONS</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <label class="active-link" id="lable2" >USER MANAGEMENT</label>
+                            <li class="child_li">
+                                <div class="un_active-link_div" id="ul_show2" >
+                                    <ul class="link_ul_ok">
+                                        <li class="bg-white custom_li"><a href="admin-staf.html" class="">- ADMIN
+                                                /
+                                                STAF</a></li>
+                                        <li class="bg-white custom_li"><a href="customers.html" class="">-
+                                                CUSTOMERS</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="waiters.html" class="">-
+                                                WAITERS</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="role-group.html" class="activee">- ROLE
+                                                GROUPS</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <label class="un_active-link" id="lable3" >RESTAURANT</label>
+                            <li class="child_li">
+                                <div class="un_active-link_div" id="ul_show3" style="display: none;">
+                                    <ul class="link_ul_ok">
+                                        <li class="bg-white custom_li"><a href="branches.html" class="">- BRANCHES</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="dept-tags.html" class="">- DEPT TAGS</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="tables.html" class="">- TABLES</a></li>
+                                        <li class="bg-white custom_li"><a href="payment.html" class="">- PAYMENT
+                                                TYPES</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <label class="un_active-link" id="lable4" >SETTINGS</label>
+                            <li class="child_li">
+                                <div class="un_active-link_div" id="ul_show4" style="display: none;">
+                                    <ul class="link_ul_ok">
+                                        <li class="bg-white custom_li"><a href="currencies.html" class="">-
+                                                CURRENCIES</a></li>
+                                        <li class="bg-white custom_li"><a href="languages.html" class="">- LANGUAGES</a>
+                                        </li>
+                                        <li class="bg-white custom_li"><a href="email-stamp.html" class="">- EMAIL /
+                                                STAMP</a></li>
+                                        <li class="bg-white custom_li"><a href="genral-settings.html" class="">- GENRAL
+                                                SETTINGS</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Links box end -->
+                <!-- content box start -->
+                <div class="col-lg-9  action-box px-3 pt-3 overflow-auto pr-0 position-relative bg-white"
+                    style="border-left: 10px solid #EBEEF6;">
+                    <div class=" ">
+                        <div class="row">
+                            <div class="col-md-3 pt-2">
+                                <h6
+                                    style="font-weight: 900; font-size: 16px; font-family: 'Poppins', sans-serif !important;">
+                                    Permission Group List</h6>
+                            </div>
+                            <div class="col-md-6 offset-md-1">
+                                <div class="input-group mx-3">
+                                    <div class="form-file w-75">
+                                        <input type="text" class="form-control border-0 rounded-0 bg-light"
+                                            placeholder="Search">
+                                    </div>
+                                    <button class="btn btn-primary bg-own border-0 rounded-0" type="button">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-2 pt-4 pt-md-0">
+                                <a href="" class="w-100 btn bg-own btn-danger">Add New</a>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <table class="table table-bordered table-hover text-center mx-3 mt-3 font-size-12">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 50px;">S/L</th>
+                                        <th scope="col" style="width: 200px;">Name</th>
+                                        <th scope="col" style="width: 205px;">Permissions</th>
+                                        <th scope="col" style="width: auto;">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="align-middle">
+                                    <tr class="align-middle">
+                                        <th scope="row" class="xsm-text text-capitalize align-middle text-center">1</th>
+                                        <td class="xsm-text align-middle text-center">Admin</td>
+                                        <td class="xsm-text text-capitalize align-middle text-center">
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Work
+                                                    period</li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">POS</li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Order
+                                                    history</li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Customer
+                                                </li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Kitchen
+                                                </li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Report
+                                                </li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Manage
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td class="xsm-text align-middle text-center">Edit or Delete is not allowed for
+                                            Admin group</td>
+                                    </tr>
+                                    <tr class="align-middle">
+                                        <th scope="row" class="xsm-text text-capitalize align-middle text-center">2</th>
+                                        <td class="xsm-text align-middle text-center">Naveed</td>
+                                        <td class="xsm-text text-capitalize align-middle text-center">
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Work
+                                                    period</li>
+                                            </ul>
+                                        </td>
+                                        <td class="xsm-text align-middle text-center">
+                                            <div class="dropdown"><button class="btn t-bg-clear t-text-dark--light-40"
+                                                    type="button" data-toggle="dropdown"><i
+                                                        class="fa fa-ellipsis-h"></i></button>
+                                                <div class="dropdown-menu"><button
+                                                        class="dropdown-item sm-text text-capitalize"
+                                                        data-toggle="modal" data-target="#addGroup"><span
+                                                            class="t-mr-8"><i
+                                                                class="fa fa-pencil"></i></span>Edit</button><button
+                                                        class="dropdown-item sm-text text-capitalize"><span
+                                                            class="t-mr-8"><i
+                                                                class="fa fa-trash"></i></span>Delete</button></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-middle">
+                                        <th scope="row" class="xsm-text text-capitalize align-middle text-center">3</th>
+                                        <td class="xsm-text align-middle text-center">POS Manager</td>
+                                        <td class="xsm-text text-capitalize align-middle text-center">
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Kitchen
+                                                </li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">POS</li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Work
+                                                    period</li>
+                                            </ul>
+                                            <ul class="list-group">
+                                                <li class="list-group-item bg-success rounded-sm p-1 m-1 mx-3">Order
+                                                    history</li>
+                                            </ul>
+                                        </td>
+                                        <td class="xsm-text align-middle text-center">
+                                            <div class="dropdown"><button class="btn t-bg-clear t-text-dark--light-40"
+                                                    type="button" data-toggle="dropdown"><i
+                                                        class="fa fa-ellipsis-h"></i></button>
+                                                <div class="dropdown-menu"><button
+                                                        class="dropdown-item sm-text text-capitalize"
+                                                        data-toggle="modal" data-target="#addGroup"><span
+                                                            class="t-mr-8"><i
+                                                                class="fa fa-pencil"></i></span>Edit</button><button
+                                                        class="dropdown-item sm-text text-capitalize"><span
+                                                            class="t-mr-8"><i
+                                                                class="fa fa-trash"></i></span>Delete</button></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class=" pl-2 w-100 position-sticky "
+                        style="bottom: -120px; left: 0px; border-top: 5px solid #EBEEF6;">
+                        <div class="bg-white py-2 px-2">
+                            <a href="" class="btn btn-sm btn-light"><i class="fas fa-angle-double-left"></i></a>
+                            <a href="" class="btn btn-sm mx-2 btn-danger  bg-own">1</a>
+                            <a href="" class="btn btn-sm btn-light"><i class="fas fa-angle-double-right"></i></a>
+                            <p class="d-inline-block float-right">Showing 1 - 3 of 3</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- content box start -->
+            </div>
+            <!-- box end -->
+        </div>
+    </main>
+    <!-- Main end -->
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="position-relative">
+                <a href="">
+                    <div
+                        class="logo d-inline-block  pt-2 col-lg-2 pl-lg-0 offset-lg-0 col-3 offset-3 col-md-1 offset-md-0 p-0 m-0">
+                        <img src="img/khadyo-logo.png" alt="logo pic" style="height: 25px !important; ;">
+                    </div>
+                </a>
+                <div class="d-inline-block offset-sm-2 offset-md-2  para">
+                    <p>© CraveTeck || All rights reserved</p>
+                </div>
+                <div class="d-md-inline-block d-none float-right bg-own time-box position-relative "
+                    style="width: 260px; min-height: 50px;">
+                    <span class="bg-white d-inline-block rounded-lg text-center position-absolute"
+                        style="width: 40px ; height: 40px; line-height: 40px; top: 5px; left: 50px;">
+                        <i class="fas fa-clock text-own"></i>
+                    </span>
+                    <div class="d-inline-block float-right mr-4 mt-2" style="width: 120px; height: 40px;">
+                        <p class="d-inline-block font-weight-bold text-white m-0 p-0 time-js "
+                            style="font-size: 16px; ">
+                            02:38:37 PM
+                        </p>
+                        <span class="date-js d-block text-white" style="font-size: 10px;">Saturday, 19 Jun, 2021</span>
+                    </div>
+                </div>
+                <!-- time box start div -->
+
+                <!-- time box end div -->
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- bootstrap js files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <!-- external js file inclue -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
